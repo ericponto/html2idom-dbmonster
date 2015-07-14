@@ -1,0 +1,26 @@
+{
+  "name": "html2idom-dbmonster",
+  "version": "0.0.1",
+  "description": "db monster using html2idom",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify app.js -t babelify | uglifyjs -c > dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ericponto/html2idom-dbmonster.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericponto/html2idom-dbmonster/issues"
+  },
+  "homepage": "https://github.com/ericponto/html2idom-dbmonster",
+  "dependencies": {
+    "escape-html": "^1.0.2",
+    "html2idom": "0.0.5"
+  },
+  "devDependencies": {
+    "babelify": "^6.1.3"
+  }
+}
